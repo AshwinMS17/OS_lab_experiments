@@ -215,3 +215,79 @@ void main()
         }
 
 }
+
+
+/*
+Enter number of processes: 5
+
+Enter number of resourses: 3
+
+Enter details for P0: 
+Enter allocation        --      0 1 0
+
+Enter Max               --      7
+5
+3
+
+Enter details for P1: 
+Enter allocation        --      2
+0
+0
+
+Enter Max               --      3
+
+2
+2
+
+Enter details for P2: 
+Enter allocation        --      3
+0
+2
+
+Enter Max               --      9
+0
+2
+
+Enter details for P3: 
+Enter allocation        --      2
+1
+1
+
+Enter Max               --      2
+2
+2
+
+Enter details for P4: 
+Enter allocation        --      0
+0
+2
+
+Enter Max               --      4
+3
+3
+
+Enter available resources       --      3
+3
+2
+
+Enter new request details--
+Enter pid       --      1
+
+Enter request for resourses     --      1
+0
+2
+
+P1 is visited(  5  3  2)
+P2 is visited(  8  3  4)
+P3 is visited( 10  4  5)
+P4 is visited( 10  4  7)
+P0 is visited( 10  5  7)
+SYSTEM IS IN SAFE STATE
+The safe sequence is --(P1P2P3P4P0)
+Process         Allocation              Max                     Need
+P0           0     1     0     7     5     3     7     4     3
+P1           3     0     2     3     2     2     0     2     0
+P2           3     0     2     9     0     2     0     0     0
+P3           2     1     1     2     2     2     0     1     1
+P4           0     0     2     4     3     3     4     3     1
+*/
